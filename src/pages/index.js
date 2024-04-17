@@ -12,9 +12,6 @@ export default function Home() {
       <div>
         <Button theme="primary">hello vurld</Button>
       </div>
-      <p className="text-4xl underline text-slate-300 font-sans">
-        HELLO WORLDDDD
-      </p>
     </div>
   );
 }

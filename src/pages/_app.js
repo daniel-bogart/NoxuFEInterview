@@ -1,5 +1,4 @@
-// pages/_app.js
-import "../../styles/global.css"; // Adjust the path according to your directory structure
+import "../../styles/global.css";
 
 export default function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
