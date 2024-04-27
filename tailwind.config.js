@@ -16,7 +16,21 @@ module.exports = {
         current: "currentColor",
         white: "#ffffff",
         "noxu-red": "#DC2626",
-        'noxu-orange': "#F0671A",
+        "noxu-orange": "#F0671A",
+      },
+      keyframes: {
+        rotate: {
+          from: { transform: "rotate(0deg)" },
+          to: { transform: "rotate(360deg)" },
+        },
+        rotateReverse: {
+          from: { transform: "rotate(360deg)" },
+          to: { transform: "rotate(0deg)" },
+        },
+      },
+      animation: {
+        rotate: "rotate 0.5s linear",
+        "rotate-reverse": "rotateReverse 1s linear",
       },
     },
   },
