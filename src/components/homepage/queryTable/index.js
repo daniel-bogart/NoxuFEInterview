@@ -3,25 +3,25 @@ import React from "react";
 const QueryTable = ({ data }) => {
   return (
     <div className="max-w-full overflow-hidden rounded-lg bg-white">
-      <table className="min-w-full leading-normal">
+      <table className="min-w-full">
         <thead>
-          <tr className="text-left text-gray-700 bg-white">
-            <th className="px-5 py-3 border-b-2 border-gray-200 text-xs font-semibold uppercase tracking-wider">
+          <tr className="text-left font-light text-sm text-slate-300 text-gray-700 bg-white">
+            <th className="px-5 py-3 border-b-2 border-gray-200">
               Name
             </th>
-            <th className="px-5 py-3 border-b-2 border-gray-200 text-xs font-semibold uppercase tracking-wider">
+            <th className="px-5 py-3 border-b-2 border-gray-200">
               Industry
             </th>
-            <th className="px-5 py-3 border-b-2 border-gray-200 text-xs font-semibold uppercase tracking-wider">
+            <th className="px-5 py-3 border-b-2 border-gray-200">
               City
             </th>
-            <th className="px-5 py-3 border-b-2 border-gray-200 text-xs font-semibold uppercase tracking-wider">
+            <th className="px-5 py-3 border-b-2 border-gray-200">
               State
             </th>
-            <th className="px-5 py-3 border-b-2 border-gray-200 text-xs font-semibold uppercase tracking-wider">
+            <th className="px-5 py-3 border-b-2 border-gray-200">
               Segment
             </th>
-            <th className="px-5 py-3 border-b-2 border-gray-200 text-xs font-semibold uppercase tracking-wider">
+            <th className="px-5 py-3 border-b-2 border-gray-200">
               Owner ID
             </th>
           </tr>
